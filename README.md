@@ -11,4 +11,4 @@ The analysis answers questions such as
 - Which artist contributed with most amount of popular songs?
 - Is there a common characteristic behind a popular song?
 
-A full report is published in [Medium](https://medium.com/@pedropablom/spotifys-top-songs-of-2010s-8938d8e96f95) explaining all the findings.
+A full report is published in [published in Medium](https://medium.com/@pedropablom/spotifys-top-songs-of-2010s-8938d8e96f95) shows all the findings.
