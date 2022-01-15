@@ -1,6 +1,6 @@
 # ReadMe
 ![GitHub Light](https://github.com/github-light.png#gh-dark-mode-only)
-![](https://www.freepik.com/free-photo/woman-holding-up-spotify-icon-isolated_3532732.htm)
+![woman-holding-up-spotify-icon-isolated_53876-64898](https://user-images.githubusercontent.com/79945708/149636346-b3a1fe74-1c14-401a-bc8c-aa329bebfa31.jpg)
 
 This repository contains a notebook with EDA of the most popular songs listened in Spotify over the 2010s.
 
@@ -11,6 +11,4 @@ The analysis answers questions such as
 - Who was the most popular artist?
 - Which artist contributed with most amount of popular songs?
 - Is there a common characteristic behind a popular song?
-
-
 
