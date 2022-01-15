@@ -1,6 +1,5 @@
 # ReadMe
-![GitHub Light](https://github.com/github-light.png#gh-dark-mode-only)
-![woman-holding-up-spotify-icon-isolated_53876-64898](https://user-images.githubusercontent.com/79945708/149636346-b3a1fe74-1c14-401a-bc8c-aa329bebfa31.jpg)
+![image_guy](https://user-images.githubusercontent.com/79945708/149636402-62dbf274-fae5-4c1f-bdcf-dd59071a4380.jpg)
 
 This repository contains a notebook with EDA of the most popular songs listened in Spotify over the 2010s.
 
