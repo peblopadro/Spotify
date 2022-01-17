@@ -19,11 +19,11 @@ The dataset used is from the pubicly available [Kaggle's competition](https://ww
 
 **Prepare Data**
 
-Given certain names having different characters from the english alhabet, either from artists as well as songs (e.g. Beyonc**è**), using pandas's 'read_csv' default `utf-8` encoding will show errors. It is shown in the notebook solutions to properly download it with the right encoding.
+Given certain names having different characters from the english alhabet, either from artists as well as songs (e.g. Beyonc**è**), using pandas's `read_csv` default **utf-8** encoding will show errors. In the notebook, it is shown a solution to properly download it with the right encoding.
 
 The data contains 12 features, including Beats-per-minute (the tempo of the song), Popularity score (based on Billboard rankings), Energy (i.e. the higher the score, the more energetic), a Danceability (the higher the score, the easier it is to dance to this song), “Speach-iness” (the higher the score the more spoken word the song contains), among others.
 
-Also an analysis of shape, number of features and data samples, missing values and proper formating of the features was performed.
+Also an analysis of missing values and proper formating of the features was performed.
 
 **Evaluation & Findings**
 
@@ -46,7 +46,6 @@ Also an analysis of shape, number of features and data samples, missing values a
 - *Correlation Between Popularity and Features:* Using a heatmap, it different features are analyzed to see any positive or negative correlation between the popularity of a song and them.
 
 - *Most Popular Artist of the Decade*: Using NLP's Word Cloud visualization tool, it is depicted that Katy Perry is the most popular artist of the decade.
-
 
 **Documention**
 
