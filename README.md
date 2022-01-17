@@ -5,7 +5,7 @@ A CRISP-DM process is outlined as follows:
 
 **Business Understanding**
 
-This repository contains a [notebook](https://github.com/peblopadro/Spotify/blob/main/Spotify_TopSongs.ipynb) with *exploratory data analysis* (EDA)of the most popular songs listened in Spotify over the 2010s. 
+This repository contains a [notebook](https://github.com/peblopadro/Spotify/blob/main/Spotify_TopSongs.ipynb) with *exploratory data analysis* (EDA) of the most popular songs listened in Spotify over the 2010s. 
 
 The analysis answers questions such as:
 - Which song was the most poular each year and over the all decade?
@@ -19,7 +19,7 @@ The dataset used is from the pubicly available [Kaggle's competition](https://ww
 
 **Prepare Data**
 
-Given certain names having different characters from the english alhabet, either from artists as well as songs like Beyonc**è**, using pandas's 'read_csv' default `utf-8` encoding will show errors. It is shown in the notebook solutions to properly download it with the right encoding.
+Given certain names having different characters from the english alhabet, either from artists as well as songs (e.g. Beyonc**è**), using pandas's 'read_csv' default `utf-8` encoding will show errors. It is shown in the notebook solutions to properly download it with the right encoding.
 
 The data contains 12 features, including Beats-per-minute (the tempo of the song), Popularity score (based on Billboard rankings), Energy (i.e. the higher the score, the more energetic), a Danceability (the higher the score, the easier it is to dance to this song), “Speach-iness” (the higher the score the more spoken word the song contains), among others.
 
