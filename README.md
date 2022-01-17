@@ -13,21 +13,21 @@ The analysis answers questions such as:
 - Which artist contributed with most amount of popular songs?
 - Is there a common characteristic behind a popular song?
 
-
 **Data Understanding**
 
 The dataset used is from the pubicly available [Kaggle's competition](https://www.kaggle.com/leonardopena/top-spotify-songs-from-20102019-by-year/metadata).
-
 
 **Prepare Data**
 
 Given certain names having different characters from the english alhabet, either from artists as well as songs like Beyonc**è**, using pandas's 'read_csv' default `utf-8` encoding will show errors. It is shown in the notebook solutions to properly download it with the right encoding.
 
+The data contains 12 features, including Beats-per-minute (the tempo of the song), Popularity score (based on Billboard rankings), Energy (i.e. the higher the score, the more energetic), a Danceability (the higher the score, the easier it is to dance to this song), “Speach-iness” (the higher the score the more spoken word the song contains), among others.
+
 Also an analysis of shape, number of features and data samples, missing values and proper formating of the features was performed.
 
-**EDA**
+**Evaluation & Findings**
 
-- *Top Genres by Year*: A Data table and a pie chart shows **dance pop** was the most porpular genre.
+- *Top Genres by Year*: A Data table and a pie chart shows *dance pop* was the most porpular genre.
 
 - *Danceable Scores by Genre*: Using a bar plot it is shown that Australian Hip Hop was the most danceable genre.
 
@@ -43,11 +43,10 @@ Also an analysis of shape, number of features and data samples, missing values a
 
 - *Distribution of bpm*: Using a boxen plot, it is shown the distribution of bpm is fairly constant throughout the decade, ranging on average around the mid 120s.
 
-- *Correlation Between Features:*
+- *Correlation Between Popularity and Features:* Using a heatmap, it different features are analyzed to see any positive or negative correlation between the popularity of a song and them.
+
+- *Most Popular Artist of the Decade*: Using NLP's Word Cloud visualization tool, it is depicted that Katy Perry is the most popular artist of the decade.
 
 
-Evaluation
-Findings
-
-
+**Documention**
 A full report is published in [published in Medium](https://medium.com/@pedropablom/spotifys-top-songs-of-2010s-8938d8e96f95) showing all the findings.
